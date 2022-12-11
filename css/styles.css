@@ -147,6 +147,11 @@ body {
   border-color: #2196f3;
 }
 
+.main-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .first-section {
   background-image: linear-gradient(to bottom, #2f303a66, #2f303a66), url('../images/background.jpg');
   max-width: 1600px;
@@ -256,6 +261,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .employee-social-links-item {
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
   padding: 12px;
   fill:#AFB1B8;
 }
@@ -410,6 +419,10 @@ border-radius: 0px 0px 4px 4px;
 
 .footer-social-links-list-item {
   fill: #ffffff;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
   padding: 12px;
   background-color: #FFFFFF1A;
   border-radius: 50%;
